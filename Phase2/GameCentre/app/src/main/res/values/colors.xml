@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimarylight">#9fa8da</color>
+
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#fb8c00</color>
+    <color name="green">#00bfa5</color>
+    <color name="lightgreen">#00d0b4</color>
+    <color name="brightlightblue">#42a5f5</color>
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+    <color name="popupBG">#2f333f</color>>
+    <color name="white">#fff</color>>
+    <color name="lightblue">#ADD8E6</color>>
+    <color name="colorTransparentWhite">#aaffffff</color>
+    <color name="deficit">#ff1744</color>
+    <color name="materialRed">#ff867f</color>
+    <color name="softpurple">#ba68c8</color>
+    <color name="verylightSeaGreen">#29b4a7</color>
+    <color name="lightSeaGreen">#26a69a</color>
+    <color name="mediumSeaGreen">#009688</color>
+    <color name="darkSeaGreen">#00897b</color>
+    <color name="scoreHighlightColor">#00897b</color>
+    <color name="black">#000</color>>
+    <color name="logColor">#ffee58</color>>
+
+    <color name="two">#eee4da</color>
+    <color name="four">#ede0c8</color>
+    <color name="eight">#f2b179</color>
+    <color name="sixteen">#f59563</color>
+    <color name="thirtyTwo">#f67c5f</color>
+    <color name="sixtyFour">#f65e3b</color>
+    <color name="oneTwentyEight">#edcf72</color>
+    <color name="twoFiftySix">#edcc61</color>
+    <color name="fiveTwelve">#edc850</color>
+    <color name="tenTwentyFour">#edc53f</color>
+    <color name="twentyFourtyEight">#edc22e</color>
+    <color name="textDark">#776e65</color>
+    <color name="textLight">#f9f6f2</color>
+    <color name="gridColor">#BBADA0</color>
+    <color name="gray">#767676</color>
+
+
+    <color name="black_overlay">#66000000</color>
+</resources>

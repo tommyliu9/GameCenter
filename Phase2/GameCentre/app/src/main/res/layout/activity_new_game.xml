@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/snow"
+    android:orientation="vertical"
+    tools:context="fall2018.csc207.menu.NewGameActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:elevation="2dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:paddingLeft="8dp"
+            android:text="@string/new_game"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:textColor="@color/backgroundcolor" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="@color/colorTransparentWhite">
+
+        <TextView
+            android:id="@+id/fileNameLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="@string/file_name" />
+
+        <EditText
+            android:id="@+id/fileName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="@string/file_name"
+            android:inputType="textNoSuggestions|textPersonName" />
+
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/sep"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        app:srcCompat="@android:color/darker_gray" />
+
+    <TableRow
+        android:id="@+id/infUndoRow"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/colorTransparentWhite">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="@string/allow_unlimited_undos"
+            android:textAlignment="textStart" />
+
+        <Switch
+            android:id="@+id/infiniteUndo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:checked="false"
+            android:padding="8dp"
+            android:switchPadding="8dp"
+            android:textAlignment="textEnd" />
+    </TableRow>
+
+
+    <ImageView
+        android:id="@+id/sep3"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        app:srcCompat="@android:color/darker_gray" />
+
+    <TableRow
+        android:id="@+id/allowedUndosRow"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:background="@color/colorTransparentWhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="8dp"
+            android:text="@string/max_undos"
+            android:textAlignment="textStart" />
+
+        <EditText
+            android:id="@+id/undoPicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:ems="10"
+            android:inputType="number" />
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/sep2"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        app:srcCompat="@android:color/darker_gray" />
+
+    <Button
+        android:id="@+id/startGame"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/start_game"
+        android:textColor="@color/backgroundcolor" />
+
+</TableLayout>

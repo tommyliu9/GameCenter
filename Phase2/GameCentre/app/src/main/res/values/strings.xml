@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Game Centre</string>
+    <string name="info">Passwords must be longer than 5 characters. \n\nUsername and Password fields
+        must not be empty.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_game_centre">Welcome To Game Centre!</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign-Up</string>
+    <string name="game_centre">GAME CENTRE</string>
+    <string name="sliding_tiles">Sliding Tiles</string>
+    <string name="current_score">Current Score</string>
+    <string name="high_score">High Score</string>
+    <string name="none">None</string>
+    <string name="new_game">New Game</string>
+    <string name="load_game">Load Game</string>
+    <string name="scoreboard">Scoreboard</string>
+    <string name="number_of_undos">Number of Undos</string>
+    <string name="allow_unlimited_undos">Allow Unlimited Undos</string>
+    <string name="three">3</string>
+    <string name="game_type">Game Type</string>
+    <string name="x">X</string>
+    <string name="exclamation_mark">!</string>
+    <string name="submit">Submit</string>
+    <string name="triple_dash">---</string>
+    <string name="unknown">Unknown</string>
+    <string name="double_zero">00</string>
+    <string name="top_score">Top Score</string>
+    <string name="no_scores_exist">No scores exist!</string>
+    <string name="game_name_uppercase">GAME NAME</string>
+    <string name="score_0">SCORE: 0</string>
+    <string name="zero">0</string>
+    <string name="sliding_tiles_info">Sliding Tiles is a game where you must
+        order the twentyFortyEightTiles numerically using the least number of moves to win!
+        \n\n Click New Game to select the dimensions of the game and the amount
+        of undos you wish to play with. \n\n Click Load Game to load a previously
+        saved game. \n\n Click scoreboard to view how well you stack up against
+        other players!</string>
+    <string name="minesweeper_info">Minesweeper is a game about clearing a minefield. Each twentyFortyEightTile is
+    either a bomb or a safe twentyFortyEightTile. When a twentyFortyEightTile is clicked, it will reveal
+    how many bombs there are adjacent to it. \n\nClicking a bomb will lose the game.\n\n
+    Hold a twentyFortyEightTile to mark it with a flag, so you can remember where the bombs are. \n\nReaveal
+    all non bomb twentyFortyEightTiles to win.</string>
+    <string name="twentyfortyeight_info">2048 is a game about adding like terms. \n\nSwipe up, down,
+        left and right to combine twentyFortyEightTiles and amass the largest score you can get! \n\nEach time you
+        swipe, a new twentyFortyEightTile appears, and a full twentyFortyEightBoard constitutes a loss. \n\nEach time you combine
+        two like twentyFortyEightTiles,
+        they merge and create a twentyFortyEightTile of with value equal to the sum of the two. \n\nGood Luck!
+    </string>
+    <string name="start_game">Start Game</string>
+    <string name="file_name">File Name</string>
+    <string name="two">2</string>
+    <string name="error">Error!</string>
+    <string name="undo">Undo</string>
+    <string name="save">Save</string>
+    <string name="quit">Quit</string>
+    <string name="info_title">Info</string>
+    <string name="max_undos">Maximum Undos</string>
+    <string name="create_new_acc">Create A New Account</string>
+
+</resources>
